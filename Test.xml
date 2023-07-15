@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="ApiDemo2">
+        <classes>
+            <class name="testPac.TestCases">
+
+                <methods>
+                    <include name="createBoard"/>
+                    <include name="updateBoard"/>
+                    <include name="createList"/>
+                    <include name="updateList"/>
+                    <include name="updateList"/>
+                    <include name="moveListToAnotherBoard"/>
+                    <include name="createCard"/>
+                    <include name="createBoard"/>
+                    <include name="updateCard"/>
+                    <include name="deleteCard"/>
+                    <include name="deleteBoard"/>
+                </methods>
+            </class> <!-- testPac.TestCases -->
+        </classes>
+    </test> <!-- ApiDemo2 -->
+</suite> <!-- Default Suite -->
